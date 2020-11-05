@@ -1,0 +1,51 @@
+body{
+
+    /* širina stranice */
+    width: 1200px;;
+
+    margin: auto;
+    text-align: center;
+
+
+}
+
+
+h1{
+
+    font-family:  Helvetica,Arial, sans-serif;
+    font-size: 83px;
+    text-transform: uppercase;
+
+    /* Koliko je odmaknuto od gore */
+    padding-top: 350px ;
+    
+}
+
+p{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 27px;
+    text-transform: uppercase;
+
+}
+
+nav{
+
+    display: block;
+    width: 1000px;
+
+    padding: 10px 29px;
+}
+
+ul, li{
+
+    list-style: none;
+
+    float:left;
+}
+
+nav a{
+
+    text-decoration: none;
+    color: black;
+}
