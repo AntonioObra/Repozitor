@@ -5,6 +5,18 @@
     box-sizing: border-box;
 }
 
+body{
+
+    background-image: url(../Slikež/wall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    height: 1080px;
+    
+}
+
+
 /* NAvigacijska traka */
 
 nav{
@@ -25,6 +37,18 @@ nav{
     font-family: 'Poppins', sans-serif;
 
 }
+
+
+.sticky-section{
+    overflow:hidden;
+    margin-bottom:50px;
+    width:100%; 
+   
+    position:-webkit-sticky;
+    position:sticky;
+    top:0px;
+  }
+
 
 .logo{
 
@@ -171,3 +195,38 @@ nav{
 
 
 /* NAV KRAH !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+   
+
+h1{
+
+    color: white;
+    font-size:82px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding-top:30vh;
+    letter-spacing:5px;
+
+}
+
+h3{
+    color: white;
+    font-size:30px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding-top:5vh;
+    letter-spacing:5px;
+    padding-bottom:500vh
+}
+
+p{
+    color: white;
+    font-size:15px;
+    letter-spacing:2px;
+}
+
+.kontejner{
+    
+   
+    width:80%;
+}
