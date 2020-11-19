@@ -1,3 +1,7 @@
+html{
+    height:100%;
+}
+
 *{
 
     margin: 0px;
@@ -5,15 +9,18 @@
     box-sizing: border-box;
 }
 
-body{
+/* prva pozadinska slika */
+header{
 
     background-image: url(../Slikež/wall.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: top center;
     background-color: black;
-    height: 1080px;
-    
+}
+
+body{
+    background-color: black;
 }
 
 
