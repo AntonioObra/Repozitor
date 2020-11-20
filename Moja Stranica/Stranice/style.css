@@ -1,5 +1,6 @@
 html{
     height:100%;
+    background-position: center center;
 }
 
 *{
@@ -9,18 +10,13 @@ html{
     box-sizing: border-box;
 }
 
-/* prva pozadinska slika */
-header{
-
-    background-image: url(../Slikež/wall.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top center;
-    background-color: black;
-    height: 1080px;
-}
 
 body{
+    background-color: black;
+    background-image: url(../Slikež/wall.jpg), url(../Slikež/slika2.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 1920px 1080px, initial;
+    background-position: top center, bottom center;
     background-color: black;
 }
 
@@ -202,7 +198,7 @@ nav{
 }
 
 
-/* NAV KRAH !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* NAV KRAJ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
    
 .kontejner{
@@ -230,12 +226,12 @@ h3{
     font-family: 'Poppins', sans-serif;
     padding-top:5vh;
     letter-spacing:5px;
-    padding-bottom:500vh
+    padding-bottom: 65vh;
 }
 
 p{
 
-    padding-top: 100px;
+    
     letter-spacing:2px;
     color: white;
     font-size:24px;
@@ -244,11 +240,29 @@ p{
 }
 
 
+
+
+
 .video {
 
     padding-top: 100px;
     text-align: center;
+
+    padding-bottom: 100px;
 }
+
+
+
+.selek{
+
+    background-image: url(../Slikež/slika2);
+    background-position:  bottom center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    padding-top: 1000px;
+}
+
+
 
 
 
