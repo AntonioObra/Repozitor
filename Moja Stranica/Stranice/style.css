@@ -43,15 +43,10 @@ nav{
 }
 
 
-.sticky-section{
-    overflow:hidden;
-    margin-bottom:50px;
-    width:100%; 
-   
-    position:-webkit-sticky;
+.sticky-section {
+
     position:sticky;
-    top:0px;
-  }
+}
 
 
 .logo{
@@ -159,7 +154,7 @@ nav{
 /* ovo je da kada se klikne da se pojavi */
 .nav-active{
 
-    transform: translateX(0);
+    transform: translateX(0%);
 }
 
 /* animacija kada kliknemo gumb */
@@ -306,6 +301,18 @@ footer{
     height:100px;
     background-color: rgb(8, 8, 8);
     text-align: center;
+
+}
+
+
+
+@media screen and (max-width:1024px){
+
+    iframe{
+
+        width:auto;
+        height:auto;
+    }
 
 }
 
