@@ -306,11 +306,11 @@ footer{
 
 
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:1080px){
 
     iframe{
 
-        width:auto;
+        width: calc(900px -20%);
         height:auto;
     }
 
