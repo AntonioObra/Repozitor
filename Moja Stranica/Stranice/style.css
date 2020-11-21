@@ -12,12 +12,12 @@ html{
 
 
 body{
-    background-color: black;
-    background-image: url(../Slikež/wall.jpg), url(../Slikež/slika2.jpg);
-    background-repeat: no-repeat, no-repeat;
-    background-size: 1920px 1080px, initial;
-    background-position: top center, bottom center;
-    background-color: black;
+    background-color: rgb(7, 10, 7);
+    background-image: url(../Slikež/wall.jpg);
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+    background-position: top center;
+    
 }
 
 
@@ -208,7 +208,8 @@ nav{
     margin-right:auto;
     text-align: left;
 }
-h1{
+
+ h1{
 
     color: white;
     font-size:82px;
@@ -248,19 +249,59 @@ p{
     padding-top: 100px;
     text-align: center;
 
-    padding-bottom: 100px;
+}
+
+.razmak{
+    padding-bottom: 300px;
+
 }
 
 
+.box{
 
-.selek{
+    
+    padding-top: 200px;
+    width:1920px;
+    height:1080px;
+    
 
-    background-image: url(../Slikež/slika2);
-    background-position:  bottom center;
-    background-size: auto;
+    background-image: url(../Slikež/slika3.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 1000px;
+    
 }
+
+.box h1{
+
+    color: white;
+    font-size:82px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding-top:15vh;
+    letter-spacing:5px;
+}
+
+.story{
+    padding-top: 30vh;
+}
+
+.story p{
+ 
+    
+    margin:auto;
+    width: 80%;
+    text-align: center;
+}
+
+.video2{
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+
+
+   
+
+
 
 
 
