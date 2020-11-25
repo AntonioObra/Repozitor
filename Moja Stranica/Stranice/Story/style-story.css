@@ -1,0 +1,341 @@
+html{
+    height:100%;
+    background-position: center center;
+}
+
+*{
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(7, 10, 7);
+    background-image: url(../Slikež/wall.jpg);
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+    background-position: top center;
+    
+}
+
+
+/* NAvigacijska traka */
+
+nav{
+
+    /* da bude jedno pored drugog */
+    display:flex;
+
+    /* ovo je da bude razmak izmedu headera i liste */
+    justify-content:space-around;
+
+    /* ovo je da se centrira vertikalno */
+    align-items:center;
+
+    min-height: 8vh;
+    background-color: rgb(98, 139, 115);
+
+    /* za font */
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+.sticky-section {
+
+    position:sticky;
+}
+
+
+.logo{
+
+    color: white;
+    text-transform: uppercase;
+    letter-spacing:5px;
+    font-size:22px;
+
+}
+
+.logo a{
+    color: white;
+    text-decoration: none;
+    
+    
+    
+}
+
+.nav-links{
+
+    display:flex;
+    justify-content:space-around;
+    width: 40%;
+
+}
+
+.nav-links li{
+
+    list-style: none;
+
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    letter-spacing:5px;
+    font-weight: bold;
+    font-size:14px;
+}
+
+
+
+/* ovo je za ikonu u mobile view-u , odnosno BURGER klasu*/
+
+.burger{
+    
+    /* ovo je da se ne vidi u normalnom view-u */
+    display: none;
+}
+
+/* izgled ikone */
+.burger div{
+    
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+/* ovo je za mobile uredaje */
+@media screen and (max-width:1024px){
+
+    /* ovo je da se razmak izmedu linkova poveca */
+    .nav-links{
+
+        width: 60%;
+    
+    }
+
+}
+
+@media screen and (max-width:768px){
+
+    body{
+        
+        /* ovo je da navbar bude sakriven */
+        overflow-x: hidden;
+    }
+    .nav-links{
+
+        /* ovoje da se navbar u mobile view-u dode dolje i da bude centrirano sve */
+        position: absolute;
+        right: 0;
+        height: 92vh;
+        top: 8vh;
+        width: 50%;
+        background-color:  rgb(98, 139, 115);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        /* ovo je da ne bude ravno ispod navbara nego sa strane */
+        transform: translateX(100%);
+
+        /* ovo je koliko vremana treba da se pojavi */
+        transition: transform 0.5s ease-in;
+    }
+
+    .nav-links li{
+        
+        /* ovo je da ne mozemo vidjeti rijeci */
+        opacity: 0;
+    }
+
+    .burger{
+
+        /* ovo je da se pojavi burger za mobile  */
+        display: block;
+        cursor: pointer;
+    }
+}
+
+/* ovo je da kada se klikne da se pojavi */
+.nav-active{
+
+    transform: translateX(0%);
+}
+
+/* animacija kada kliknemo gumb */
+@keyframes navLinkFade{
+
+    from{
+
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to{
+
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+}
+
+/* da se linije pretvor u x */
+.toggle .line1{
+
+    transform: rotate(-45deg) translate(-5px, 6px);
+    
+}
+
+.toggle .line2{
+
+    opacity: 0;
+}
+
+.toggle .line3{
+
+    transform: rotate(45deg) translate(-5px, -6px);
+
+}
+
+
+/* NAV KRAJ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+   
+.kontejner{
+
+    width: 80%;
+    margin-left: auto;
+    margin-right:auto;
+    text-align: left;
+}
+
+ h1{
+
+    color: white;
+    font-size:82px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding-top:30vh;
+    letter-spacing:5px;
+
+}
+
+h3{
+    color: white;
+    font-size:30px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding-top:5vh;
+    letter-spacing:5px;
+    padding-bottom: 65vh;
+}
+
+p{
+
+    
+    letter-spacing:2px;
+    color: white;
+    font-size:24px;
+    letter-spacing:2px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+
+
+
+
+.video {
+
+    padding-top: 100px;
+    text-align: center;
+
+}
+
+.razmak{
+    padding-bottom: 150px;
+
+}
+
+
+.box{
+
+    
+    padding-top: 200px;
+    width:1920px;
+    height:1080px;
+    
+
+    background-image: url(../Slikež/slika3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.box h1{
+
+    color: white;
+    font-size:82px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding-top:15vh;
+    letter-spacing:5px;
+}
+
+.story{
+    padding-top: 30vh;
+}
+
+.story p{
+ 
+    
+    margin:auto;
+    width: 80%;
+    text-align: center;
+}
+
+.video2{
+    padding-top: 20vh;
+    padding-bottom:20vh;
+    text-align: center;
+}
+
+
+footer{
+
+    padding-top: 40px;
+    height:100px;
+    background-color: rgb(8, 8, 8);
+    text-align: center;
+
+}
+
+
+
+@media screen and (max-width:1080px){
+
+    iframe{
+
+        width: calc(900px -20%);
+        height:auto;
+    }
+
+}
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
