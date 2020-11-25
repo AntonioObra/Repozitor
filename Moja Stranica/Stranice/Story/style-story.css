@@ -12,7 +12,7 @@ html{
 
 
 body{
-    background-color: rgb(7, 10, 7);
+    background-color: rgb(10, 7, 7);
     background-image: url(../../Slikež/4k.jpg);
     background-repeat: no-repeat;
     background-size: 1920px 1080px;
@@ -135,7 +135,7 @@ nav{
         height: 92vh;
         top: 8vh;
         width: 50%;
-        background-color:  rgb(98, 139, 115);
+        background-color:  rgb(155, 73, 73);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -220,7 +220,7 @@ nav{
     font-size:82px;
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    padding-top:30vh;
+    padding-top:40vh;
     letter-spacing:5px;
 
 }
@@ -257,7 +257,7 @@ p{
 }
 
 .razmak{
-    padding-bottom: 150px;
+    padding-bottom: 375px;
 
 }
 
