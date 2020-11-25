@@ -58,6 +58,14 @@ nav{
 
 }
 
+.logo a{
+    color: white;
+    text-decoration: none;
+    
+    
+    
+}
+
 .nav-links{
 
     display:flex;
@@ -79,6 +87,8 @@ nav{
     font-weight: bold;
     font-size:14px;
 }
+
+
 
 /* ovo je za ikonu u mobile view-u , odnosno BURGER klasu*/
 
@@ -247,7 +257,7 @@ p{
 }
 
 .razmak{
-    padding-bottom: 300px;
+    padding-bottom: 150px;
 
 }
 
