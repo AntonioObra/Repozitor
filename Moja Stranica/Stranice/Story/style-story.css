@@ -225,7 +225,7 @@ nav{
 
 }
 
-h3{
+.kontejner h3{
     color: white;
     font-size:30px;
     text-align: center;
@@ -257,7 +257,7 @@ p{
 }
 
 .razmak{
-    padding-bottom: 375px;
+    padding-bottom: 20vh;
 
 }
 
@@ -324,6 +324,17 @@ footer{
         height:auto;
     }
 
+}
+
+h3{
+    color: white;
+    font-size:38px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 15vh;
+    letter-spacing:5px;
+    padding-top: 15vh;
+    
 }
 
 
