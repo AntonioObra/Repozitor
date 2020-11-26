@@ -339,6 +339,52 @@ h3{
 
 
 
+@media screen and (max-width:1000px){
+
+    p{
+        font-size: 18px;
+    }
+
+    h3{
+        
+        font-size: 28px;
+    }
+
+    .razmak{
+        padding-bottom: 20vh ;
+    }
+
+    h1{
+
+        color: white;
+        font-size:55px;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        padding-top:30vh;
+        letter-spacing:5px;
+    
+    }
+    
+    .kontejner h3{
+        color: white;
+        font-size:30px;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        padding-top:5vh;
+        letter-spacing:5px;
+        padding-bottom: 65vh;
+    }
+
+    body{
+
+        
+        background-position: 30%, 0px;
+
+    }
+}
+
+
+
 
    
 
