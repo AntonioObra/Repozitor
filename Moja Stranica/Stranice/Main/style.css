@@ -288,6 +288,7 @@ p{
 
 .story{
     padding-top: 30vh;
+    text-align: center;
 }
 
 .story p{
@@ -299,8 +300,24 @@ p{
 }
 
 .video2{
-    padding-top: 20vh;
-    padding-bottom:20vh;
+    padding-bottom: 56.25%;
+    
+    
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+   
+    
+}
+
+.video2 iframe{
+
+    
+    position: absolute;
+    top: 0;
+    left: 25%;
+    width: 50%;
+    height: 50%;
     text-align: center;
 }
 
@@ -343,9 +360,27 @@ footer{
 
     body{
 
-        
+       
         background-position: 40%, 10%;
 
+    }
+
+    .video2{
+        
+        
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .video2 iframe{
+    
+        position: absolute;
+        top: 0;
+        left: 10%;
+        width: 80%;
+        height: 80%;
+        text-align: center;
     }
 
 }
