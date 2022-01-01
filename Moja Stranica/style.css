@@ -1,7 +1,6 @@
 html{
     height:100%;
     background-position: center center;
-    
 }
 
 *{
@@ -13,8 +12,8 @@ html{
 
 
 body{
-    background-color: rgb(10, 7, 7);
-    background-image: url(../../Slikež/4k.jpg);
+    background-color: rgb(7, 10, 7);
+    background-image: url(Slikež/wall.jpg);
     background-repeat: no-repeat;
     background-size: 1920px 1080px;
     background-position: top center;
@@ -36,7 +35,7 @@ nav{
     align-items:center;
 
     min-height: 8vh;
-    background-color: rgb(155, 73, 73);
+    background-color: rgb(98, 139, 115);
 
     /* za font */
     font-family: 'Poppins', sans-serif;
@@ -136,7 +135,7 @@ nav{
         height: 92vh;
         top: 8vh;
         width: 50%;
-        background-color:  rgb(155, 73, 73);
+        background-color:  rgb(98, 139, 115);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -221,12 +220,12 @@ nav{
     font-size:82px;
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    padding-top:40vh;
+    padding-top:30vh;
     letter-spacing:5px;
 
 }
 
-.kontejner h3{
+h3{
     color: white;
     font-size:30px;
     text-align: center;
@@ -258,7 +257,7 @@ p{
 }
 
 .razmak{
-    padding-bottom: 20vh;
+    padding-bottom: 150px;
 
 }
 
@@ -289,6 +288,7 @@ p{
 
 .story{
     padding-top: 30vh;
+    text-align: center;
 }
 
 .story p{
@@ -322,8 +322,6 @@ p{
 }
 
 
-
-
 footer{
 
     padding-top: 40px;
@@ -335,23 +333,15 @@ footer{
 
 
 
+@media screen and (max-width:1080px){
 
+    iframe{
 
-h3{
-    color: white;
-    font-size:38px;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    padding-bottom: 15vh;
-    letter-spacing:5px;
-    padding-top: 15vh;
-    
+        width: calc(900px -20%);
+        height:auto;
+    }
+
 }
-
-.razmak2{
-    padding-bottom: 20vh;
-}
-
 
 @media screen and (max-width:1000px){
 
@@ -365,34 +355,13 @@ h3{
     }
 
     .razmak{
-        padding-top: 20vh ;
-    }
-
-    h1{
-
-        color: white;
-        font-size:55px;
-        text-align: center;
-        font-family: 'Poppins', sans-serif;
-        padding-top:30vh;
-        letter-spacing:5px;
-    
-    }
-    
-    .kontejner h3{
-        color: white;
-        font-size:30px;
-        text-align: center;
-        font-family: 'Poppins', sans-serif;
-        padding-top:5vh;
-        letter-spacing:5px;
-        padding-bottom: 65vh;
+        padding-bottom: 5vh ;
     }
 
     body{
 
-        
-        background-position: 30%, 0px;
+       
+        background-position: 40%, 10%;
 
     }
 
@@ -414,9 +383,6 @@ h3{
         text-align: center;
     }
 
-    .razmak3{
-        padding-top: 10vh;
-    }
 }
 
 
